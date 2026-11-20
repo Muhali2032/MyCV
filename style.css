@@ -1,0 +1,92 @@
+
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Main heading */
+header {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Section headings */
+h2 {
+    color: #17365d;
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d9e0e8;
+}
+header h2 {
+    color: white;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+/* Subsection headings */
+h3 {
+    color: #2e5d45;
+    margin-bottom: 8px;
+}
+
+/* CV content sections */
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #17365d;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Bullet-point spacing */
+ul {
+    line-height: 1.8;
+    padding-left: 25px;
+}
+
+/* Paragraph spacing */
+p {
+    line-height: 1.6;
+}
+
+/* Footer styling */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 10px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header h2 {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
